@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+:root{
+    --cor0:#4F8DF7;
+    --cor1:#4377D1;
+    --cor2:#4A84EA;
+    --cor3:#3761AB;
+    --cor4:#223D6B;
+   
+    --fonte-padrao:arial,verdana,helvetica,sans-serif;
+    --fonte-destaque: 'Paytone One', sans-serif;
+}
+body{
+    background-color:var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    font-family:var(--fonte-destaque) ;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.322);
+    padding: 40px;
+    min-height: 150px;
+    margin: -10px;
+    
+}
+header h1{
+    
+    font-size: 90px;
+    margin: -10px;
+    width: 10px ;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: #c0d0ec;
+    }
+    nav{
+        background-color: var(--cor4);
+        margin: -10px;
+        padding: 10px;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.521);
+    }
+    nav > a{
+        color: var(--cor0);
+        padding: 10px ;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight:bolder;
+        transition-duration: .5s;
+    }
+    nav a:hover{
+        background-color: var(--cor3);
+        color: var(--cor4);
+    }

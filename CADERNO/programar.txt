@@ -1,0 +1,146 @@
+<p> DEG: DE PARAGRAFO
+ PROGRAMADOR NÃO TEM QUE DECORAR NADA 
+MAIS SIM TEM QUE DECORAR ALGUMAS COISAS 
+ 
+TRUQUE DE html.5 ADIANTA ALGUMAS INNICIO DE SITE QUE VC PRECISARIA ESCREVER POR EXEMPLO:
+
+<!DOCTYPE html> 
+<html lang="en"> : LIUNGUAGEM DO SITE 
+<head> :tuda fez que vc for para colocar a configuraçao SERA NO (HEAD)
+    <meta charset="UTF-8"> :PADRÃO DO CARACTERIS 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> : VAI FUNCIONAR TANTO PARA PC QUANTO PARA MOBILE
+    <title>Document</title>
+</head>
+<body> :PARTE VISIVEL PARTE DO CORPO DO SITE 
+    
+</body>
+</html>
+
+ESSE É O EXEMPLO 
+
+O CSS: SÃO ONDE VCIS COLOCA A IMAGENS COLOCAR COR,POSIÇONAS SERVE PARA ESTILIZAR DEIXA TUDO MAIS BONITO 
+
+WIDTH : LARGURA DA IMAGENS
+
+SEMPRE É BOM NOMEAR CADA IMAGENS COM SUA PROPRIEDADE USE : (CLASS) TIPO UM APILIDO.
+USE (.) PARA AVISAR O CSS QUE VC VAI USAR UMA CLASS
+
+O ELEMENTO DE POR NUMA CAIXA : (DIV) 
+body{
+    background: #FAFAFA;      : COLOCAR COR DE FUNDO
+    display: flex;            :
+    justify-content: center;  : CAIXA PARA COLOCAR DENTRO
+    align-items: center;      :
+    height: 100vh;            : PARA DEIXAR CENTRALIZADO 
+     font-family: sans-serif; : TROCAR A FONTE /NOME DA FONTE:SEAN-SERIF
+}
+ .img-celular {
+    width: 400px;              : TAMANHO DA IMAGEM
+ }
+ .container{
+    border: 1px solid #d3d3d3; :COLOCAR BORDA / TRASSEJADA
+    display: flex;             :AVISAR Q ESSA CAIXA VAI SER FLEXIVEL 
+    flex-direction: column;    :DEIXAR EM COLUNA UM DE BAIXO DO OUTRO
+    width: 300px;              :TAMANHO DA IMAGEM 
+    padding: 40px;             :FAZER UM ESPAÇAMENTO 
+ }
+ input{
+    height: 36px;               :ALTURA 
+
+    border: 1px solid #d3d3d3;  :BORDA
+    border-radius: 3px;         : BORDA REDOLDA 
+    margin-top: 10px;           :MARGE DE SE PARAÇÃO/ DISTANCIAMENTO
+ }
+
+ button{
+    background: #0095f6;  : COR DE FUNDO
+    height: 30px;         :DEIXAR MAIOR 
+    margin-top: 20px;     : MARGE
+    border: none;         :BORDA DE NADA(NONE)
+    border-radius: 3px;   :BORDA AREDONDADA
+    cursor: pointer;      :COLOCAR MÃOZINHA NO MAUSE CURSOR
+    color: white;         : MUDAR O ENTRAR DE BRANCO 
+    
+ }
+ .facebook{
+   color: #385185;     : MUDAR COR
+   text-align: center; : TROCAR COR DO TEXTO /TEX-ALIGN MUDAR TEXTO
+   cursor: pointer;    : MÃOZINHA
+   font-size: 14px;    :DEIXAR A FONTE MAIOR 
+   font-weight: bold;  :DEIXAR A FONTE NEGRITO
+   margin-top: 20px;   :DEIXAR UMA MARGE
+
+ }
+ .senha{
+   color: #385185;     :MUDAR A COR
+   text-align: center; :TROCAR COR DO TEXTO
+   cursor: pointer;    :MÃOZINHA
+   font-size: 12px;    :DEIXAR A FONTE MAIOR 
+   margin-top: 20px;   :DEIXAR UMA MARGE
+
+ }
+
+
+JAVASCRIPT : FAZ O SITE FICAR DINAMICO 
+
+SE 
+= => COLOCANDO UM VALOR / ATRIBIOÇÃO  # PARA MUDAR AS IMAGENS ENSINANDO O COMPUTADOR A MUDAR A IMG!
+== => PERGUNTANDO / COMPARANDO 
+
+  let imagem = document.querySelector(".img-2") :PARA FAZER O COMPUTADOR PENSAR E COLOCAR UM TEMPO PARA CADA IMG
+
+
+    setInterval(function () {                   : SE ESTIVER MOSTRANDO ESSA IMG
+        if (imagem.style.opacity == 1) {        : MUDE PARA ESSA IMG 
+            imagem.style.opacity = 0            : SE NÃO MUDE PARA ESSA IMG 
+        } else {                                :
+                imagem.style.opacity = 1        :
+            }
+        
+    } , 3000);                                  : COLOCAR SEGUNDO
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parágrafos</title>
+</head>
+<body>
+    <h1>Parágrafos e quebras de linha</h1>
+    <hr>
+    <p>Você pode escrever
+        um parágrafo de
+        qualquer jeito
+        basta colocar tudo
+        no meio do par de tags
+        p e /p
+    </p>
+    <p> se precisar quebrar o texto em alugum
+        lugar especifico <br> como esse 
+        voçê pode usar tag (<.br.>) 
+    </p>
+    <p>
+        Vamos adicionar alguns simbolos especiais:
+        &reg;
+        &copy;
+        &trade;
+        &euro;
+        &pound;
+        &yen;
+        &cent;
+        &Delta;
+        &uarr;
+    </p>
+    <p>
+        Vamos adicinar algum emoji:🤯
+        &#x1f913
+    </p>
+</body>
+</html>

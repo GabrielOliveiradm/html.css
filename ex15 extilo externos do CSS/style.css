@@ -1,0 +1,21 @@
+
+    body{
+        background-color: lightsteelblue;
+        font-family: arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    h1{
+       text-align: center;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+       color: darkblue;
+        background-color: lightblue;
+    }
+    h2{
+        color: darkred;
+
+    }
+    p{
+        text-align: justify;
+    }
